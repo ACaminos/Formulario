@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body background="https://i.pinimg.com/originals/04/07/99/04079991d84e37a13de93ff8a722deaf.jpg">
+
+    <center><h1>Metiendo JavaScript</h1></center>
+    <center><h2>Solicitud de empleo</h2></center>
+    <br>
+    <br>
+<form action="Check.php" method="POST">
+   
+    <fieldset>
+            <legend>Tus datos</legend>
+                Nombre: <input type="text" name="Nombre" maxlength="15" autocomplete="off" required><br>
+            <br>Apellido: <input type="text" name="Apellido" maxlength="20" autocomplete="off" required><br>
+            <br> Correo electrónico: <input type="email" name="email" autocomplete="off" placeholder="correo@dominio.com" required>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Intereses</legend>
+            Puesto: <select name="Puesto_Laboral">
+                <option value="" selected="selected"></option>
+                <option value="Front End">Front End</option>
+                <option value="Back End">Back End</option>
+                <option value="Full Stack">Full Stack</option>
+                </select>
+        <br><br>Horario: <input type="radio" name="Horario" value="Part Time">Part Time</input>
+            <input type="radio" name="Horario" value="Full Time">Full Time</input>
+        
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Carta de presentación</legend>
+                <input type="text"  name="Carta">
+        </fieldset>
+            <br><br> 
+            <button type="reset">Borrar</button>
+            <input type="submit" name="submit" value="Enviar">
+        
+
+        </form>
+        <h6>Powered by <a href="https://www.linkedin.com/in/ariel-caminos-3b187863">Ariel Caminos</a></h6>
+</body>
+</html> 
